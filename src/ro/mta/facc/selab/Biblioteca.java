@@ -15,6 +15,16 @@ public class Biblioteca {
         carti = new ArrayList<Carte>();
     }
 
+    public Biblioteca(ArrayList<Carte> list)
+    {
+        carti = new ArrayList<Carte>();
+        for (Carte c : list)
+        {
+            carti.add(c);
+        }
+
+    }
+
     public void add(Carte carte)
     {
         carti.add(carte);
