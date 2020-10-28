@@ -4,37 +4,37 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Biblioteca {
-    ArrayList<Carte> carti;
+    ArrayList<Carte> listaCarti;
 
     public void sort()
     {
-        Collections.sort(carti);
+        Collections.sort(listaCarti);
     }
 
     public Biblioteca() {
-        carti = new ArrayList<Carte>();
+        listaCarti = new ArrayList<Carte>();
     }
 
     public Biblioteca(ArrayList<Carte> list)
     {
-        carti = new ArrayList<Carte>();
+        listaCarti = new ArrayList<Carte>();
         for (Carte c : list)
         {
-            carti.add(c);
+            listaCarti.add(c);
         }
 
     }
 
     public void add(Carte carte)
     {
-        carti.add(carte);
+        listaCarti.add(carte);
     }
 
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
 
-        for (Carte c : carti)
+        for (Carte c : listaCarti)
         {
             builder.append(c);
             builder.append("\n");
