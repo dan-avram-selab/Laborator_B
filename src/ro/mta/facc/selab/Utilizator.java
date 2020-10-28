@@ -6,6 +6,6 @@ public class Utilizator {
     String nume;
     ArrayList<Carte> carti;
 
-    public void borrowBook(Carte c)
+    public void borrow(Carte c)
     {}
 }

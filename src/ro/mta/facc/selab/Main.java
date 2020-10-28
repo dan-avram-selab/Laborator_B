@@ -15,6 +15,8 @@ public class Main {
 
         // Now create matcher object.
         Matcher m = r.matcher(line);
+
+        // Randoms
         if (m.find( )) {
             System.out.println(m.groupCount());
             System.out.println("Found value: " + m.group(0) );
