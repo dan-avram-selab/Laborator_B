@@ -1,0 +1,5 @@
+out/
+*.class
+
+# Nu mai intereseaza arhivele
+*.zip
